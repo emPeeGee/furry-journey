@@ -40,6 +40,16 @@ h3 {
   font-size: 16px;
 }
 
+#tags {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#tags > span {
+  flex: 1;
+}
+
 .tag {
   background-color: #f0932b;
   border-radius: 50px;
